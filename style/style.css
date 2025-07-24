@@ -118,15 +118,15 @@ main{
     margin: 20px 0;
     margin-left: 1.5rem;
 }
-.flower-store{
+.flower-store {
     position: relative;
 }
-.trusted-badge{
+.trusted-badge {
     height: 286px;
     width: 286px;
     position:absolute;
-    top: -20px; ;
-    right: -20px;
+    top: -130px; ;
+    right: -80px;
 }
 
 
