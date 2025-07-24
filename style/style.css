@@ -73,7 +73,7 @@ main{
 .our-plant-text p{
     font-size:1.25rem ;
     margin: 5px 4rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .our-plant-text h3{
     font-weight: bold;
@@ -129,6 +129,94 @@ main{
     top: -130px; ;
     right: -80px;
 }
+/* latest-deals-section  */
+.latest-deals{
+    margin-bottom: 30px;
+}
+.latest-deals-text{
+    text-align: center;
+    margin: 80px auto;
+}
+.latest-deals-text h3{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.latest-deals-text p{
+    font-size: 1.25rem;
+}
+.latest-deals-box{
+    display: flex;
+    text-align: center;
+    
+    
+}
+.box-1{
+    width: 23rem;
+    height: 12.5rem;
+    background-color: #000000;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-image: url("../assets/deal-bloom.png");
+    background-size: cover;
+    align-content: center;
+    color: #ffffff;
+    font-size: 2rem;
+    
+}
+.box-2{
+      width: 23rem;
+    height: 12.5rem;
+    background-color: #010101;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-image: url("../assets/deal-ana.png");
+    background-size: cover;
+    align-content: center;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.box-3{
+    height: 100%;
+    width: 47.5rem;
+    background-color: #0e0e0e;
+    border-radius: 20px;
+    background-image: url("../assets/deal-zabo.png");
+    background-size: cover;
+    color: #ffffff;
+    align-content: center;
+    font-size: 2.5rem;
+    /* filter: brightness(50%); */
+}
+small{
+    text-decoration: underline;
+}
+
+
+/* grid  */
+/* .box-1{
+    grid-area: nav-1;
+}
+.box-2{
+    grid-area: main;
+}
+.box-3{
+    grid-area: nav-2;
+}
+.latest-deals-box{
+    background-color:cadetblue;
+    grid-template-areas: 
+    "nav-1 main main"
+    "nav-2 main main"
+    ;
+} */
+ 
+
+
+
+
 
 /* join section  */
 .join{
@@ -182,8 +270,6 @@ main{
 .social-meadia img{
     margin-right: 25px;
 }
-
-
 
 
 
@@ -272,5 +358,27 @@ main{
     width: 100%;
     }
     
-    
+    /* latest deals  */
+    .latest-deals-box{
+        flex-direction: column;
+        
+    }
+    .box-1,.box-2,.box-3{
+        width: 100%;
+        height: 12.5rem;
+        margin: 10px;
+
+    }
+}
+@media screen and (min-width:576px) and (max-width:1200px) {
+    .latest-deals-box{
+        flex-direction: column;
+        
+    }
+    .box-1,.box-2,.box-3{
+        width: 100%;
+        height: 18.5rem;
+        margin: 10px;
+
+    }
 }
