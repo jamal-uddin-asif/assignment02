@@ -128,10 +128,15 @@ main{
     top: -130px; ;
     right: -80px;
 }
+
 /* join section  */
 .join{
     max-width: 100%;
-    background-color: #E95A08;
+    background-color: #26e908;
+    background-image: url("../assets/news-letter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
     height: 530px;
     text-align: center;
     align-content: center;
@@ -149,7 +154,32 @@ main{
 .join button{
     width: 11.5rem;
     padding: 10px 20px;
-    /* color: #ffffff; */
+    color: #ffffff;
+    background-color: #E95A08;
+    border: none;
+    
+}
+.ending-section{
+    height: 348px;
+    justify-content:space-between;
+    max-width: 1140px;
+    margin: 50 auto;
+}
+.ending-section p{
+    width: 300px;
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+
+.unorder-list-1 li,.unorder-list-2 li{
+    list-style: none;
+    margin-bottom: 50px;
+}
+.unorder-list-1 li a,.unorder-list-2 li a{
+    text-decoration: none;
+}
+.social-meadia img{
+    margin-right: 25px;
 }
 
 
@@ -212,6 +242,27 @@ main{
         display: none;
     }
     .our-plant-text p{
-        margin: 20px;
+        margin: 25px;
     }
+    .join input{
+        width: 60%;
+    }
+    .join button{
+        width: 20%;
+        font-size: 0.7rem;
+        padding: 12px 10px;
+        
+    }
+    .join{
+        background-size: cover;
+    }
+/* ending-section */
+     .ending-section{
+        flex-direction: column;
+        margin: 50px 20px 50px 20px;
+     }
+     .social-meadia img{
+        margin-bottom: 70px;
+     }
+
 }
