@@ -73,6 +73,7 @@ main{
 .our-plant-text p{
     font-size:1.25rem ;
     margin: 5px 4rem;
+    border: 2px solid black;
 }
 .our-plant-text h3{
     font-weight: bold;
@@ -222,7 +223,7 @@ main{
  /* header end  */
  /* .our-plant start  */
     .out-plant{
-        margin: 1.8rem;
+        margin-left: 7px;
     }
  .our-plant-cards{
     grid-template-columns: repeat(2,1fr);
@@ -235,7 +236,7 @@ main{
 
     .plant-lover{
         flex-direction: column;
-        margin: 1.8rem;
+        margin-left: 7px;
         /* background-color: #E95A08; */
     }
     .trusted-badge{
@@ -265,4 +266,11 @@ main{
         margin-bottom: 70px;
      }
 
+     /* resolving */
+    
+    .banner-img{
+    width: 100%;
+    }
+    
+    
 }
