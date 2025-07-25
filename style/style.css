@@ -263,6 +263,19 @@ small{
 }
 
 
+/* last time added  */
+.fa-cart-shopping{
+    height: 100%;
+}
+.nav-logo img{
+    width: 100%;
+}
+ .footer-logo-section p{
+    width: 100%;
+ }
+
+
+
 @media screen and (max-width:576px) {
 /* header start  */
     header{
